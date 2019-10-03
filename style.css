@@ -1,0 +1,237 @@
+body {
+    background-color: #fff;
+}
+
+div.content {
+	
+	text-align: left;
+    font-size: 18px;
+    color: #464646;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+   
+}
+
+p.band {font-size: 20px; text-align:center;}
+@media all and (max-width: 1024px)
+{
+    p.band
+    {
+        font-size:10px;
+		width: auto;
+		
+    }
+}
+
+
+p.genre {font-size: 15px; text-align:center;}
+@media all and (max-width: 1024px)
+{
+    p.genre
+    {
+        font-size:10px;
+		
+		
+    }
+}
+p.booking {font-size: 15px; text-align:center;}
+@media all and (max-width: 1024px)
+{
+    p.booking
+    {
+        font-size:10px;
+		
+		
+    }
+}
+p.allshows {font-size: 10px; text-align:center;}
+p.pastshows {padding: 0px 0px 0px 15px;}
+@media all and (max-width: 1024px)
+{
+    p.pastshows
+    {
+        font-size:10px;
+		padding: 20px 0px 20px 0px;
+		
+    }
+}
+
+div.shows 
+
+{text-align: left;
+width: 500px;
+margin: auto;
+
+}
+
+@media all and (max-width: 1024px)
+{
+    div.shows
+    {
+        font-size:12px;
+		width: auto;
+		text-align:center;
+		padding: 10px;
+		
+    }
+}
+
+.line {text-decoration:line-through; color:#969696; font-size: 14px;}
+@media all and (max-width: 1024px)
+{
+    .line
+    {
+        font-size:10px;
+		
+		
+    }
+}
+
+
+.with {color:#464646; font-size: 18px;}
+.info {color:#464646; font-size: 15px;}
+
+h2	{font-size:40px; font-style:italic; text-align:center;}
+h2.past {color:#969696; font-size: 24px; text-decoration:none;}
+@media all and (max-width: 1024px)
+{
+    h2.past
+    {
+        font-size: 14px;
+		width: auto;
+		
+    }
+}
+h3 {color:#969696; text-align:left; padding: 5px;}
+
+a.images {color:#464646; font-size: 16px;}
+@media all and (max-width: 1024px)
+{
+    a.images
+    {
+        font-size:12px;
+		width: auto;
+		
+    }
+}
+
+a.colors {color:#464646;}
+a.old {color:#969696;}
+
+div.fb {margin: auto; width:30px;}
+img.fb {width:30px;}
+@media all and (max-width: 1024px)
+{
+    img.fb
+    {
+        width: 100px;
+		
+    }
+}
+
+img.fb:hover {opacity: 0.5; 
+} 
+div.header {margin: 0px auto; width:800px;}
+@media all and (max-width: 1024px)
+{
+    div.header
+    {
+        width: 500px;
+		margin: 0px auto;
+    }
+}
+
+
+
+a.lareese {color:#464646; font-size: 14px;}
+@media all and (max-width: 1024px)
+{
+    a.lareese
+    {
+        font-size:12px;
+		width: auto;
+		
+    }
+}
+.link {color:464646;}
+
+body{ text-align:center; }
+
+div.bandcamp {margin: 0px auto; width:400px;}
+
+.blink_me {
+
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+	font-size: 20px;
+}
+
+@-moz-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes blinker {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+
+/*  Basic stucture
+=====================*/
+#accordion{}
+#accordion ul{list-style:none;margin:0;padding:0;}
+.accordion{display:none;}
+.accordion:target{display:block; border-style: dotted; border-color:#969696;}
+
+/* New rules if the window width is smaller than 1024px */
+@media all and (max-width: 1024px)
+{
+    .accordion:target { border-style:none; width: auto; font-size:10px; }
+}
+
+#accordion ul li a{}
+.accordion{}
+#accordion a.title{color:#969696;}
+#accordion {width:600px; margin: auto; padding: 5px;}
+@media all and (max-width: 1024px)
+{
+    #accordion { width: auto; padding:5px; font-size:10px;}
+}
+
+
+
+/*  Colors 
+====================*/
+
+#accordion ul li a{
+background:#fff;
+
+
+}
+.accordion{
+
+}
+.accordion:target{
+
+}
